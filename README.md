@@ -2,7 +2,7 @@
 
 This is a silly small utility that allows you to enter various choices via a command prompt and have one chosen at random for you.
 
-Feature list:
+TODO feature list:
 - create actions such as add or remove item from choices
 - dedup choices
 - cleanup output
