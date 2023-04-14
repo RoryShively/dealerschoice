@@ -9,7 +9,7 @@ Feature list:
 
 
 Example use (Will clean this up when actions feature is completed):
-bash```
+```
 Enter new choice (type "done" to exit):
 d
 input: d
