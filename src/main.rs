@@ -1,14 +1,5 @@
 use rand::seq::SliceRandom;
 
-/*
-
-feature list:
-- create actions such as add or remove item from choices
-- dedup choices
-- cleanup output
-
- */
-
 fn main() {
     let mut choices: Vec<String> = Vec::new();
 
