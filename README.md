@@ -6,6 +6,7 @@ TODO feature list:
 - create actions such as add or remove item from choices
 - dedup choices
 - cleanup output
+- add testing
 
 
 Example use (Will clean this up when actions feature is completed):
