@@ -7,7 +7,7 @@ TODO feature list:
 - dedup choices
 - cleanup output
 - add testing
-
+- split into modules
 
 Example use (Will clean this up when actions feature is completed):
 ```
