@@ -8,6 +8,7 @@ TODO feature list:
 - cleanup output
 - add testing
 - split into modules
+- better error handling
 
 Example use (Will clean this up when actions feature is completed):
 ```
