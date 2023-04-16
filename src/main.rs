@@ -1,5 +1,3 @@
-use rand::seq::SliceRandom;
-
 pub mod actions;
 
 // I thoroughly researched the seemingly trivial desicion to declare this
@@ -36,10 +34,15 @@ fn main() {
             "1" => actions::add::add(&mut choices),
             "2" => actions::remove::remove(&mut choices),
             "3" => {
-                println!("select");
-                break;
+                let _ = match actions::choose::choose(&mut choices) {
+                    Some(res) => {
+                        println!("{}", res);
+                        break;
+                    },
+                    None => println!("No choices are available, add some")
+                };
             },
-            _ => println!("incorrect input submitted"),
+            _ => println!("Incorrect input submitted"),
         }
     }
 
