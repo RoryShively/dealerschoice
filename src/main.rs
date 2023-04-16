@@ -34,7 +34,7 @@ fn main() {
 
         match input.as_str() {
             "1" => actions::add::add(&mut choices),
-            "2" => println!("remove"),
+            "2" => actions::remove::remove(&mut choices),
             "3" => {
                 println!("select");
                 break;
